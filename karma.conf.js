@@ -17,10 +17,10 @@ module.exports = function(config) {
       // Specs helpers
       'components/jasmine-helpers/*.js',
 
-      'ng-utils/**/*.js',
+      'ng-gc-utils/**/*.js',
 
-      'ng-utils.js',
-      'ng-utils.spec.js'
+      'ng-gc-utils.js',
+      'ng-gc-utils.spec.js'
     ],
 
 
