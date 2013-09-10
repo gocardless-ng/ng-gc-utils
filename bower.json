@@ -1,5 +1,5 @@
 {
-  "name": "ng-utils",
+  "name": "ng-gc-utils",
   "version": "0.1.0",
   "dependencies": {
     "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",

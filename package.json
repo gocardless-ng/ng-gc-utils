@@ -1,12 +1,12 @@
 {
-  "name": "ng-utils",
+  "name": "ng-gc-utils",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gocardless-ng/ng-utils.git"
+    "url": "git://github.com/gocardless-ng/ng-gc-utils.git"
   },
   "bugs": {
-    "url": "http://github.com/gocardless-ng/ng-utils/issues"
+    "url": "http://github.com/gocardless-ng/ng-gc-utils/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
