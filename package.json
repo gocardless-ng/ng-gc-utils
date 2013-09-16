@@ -12,7 +12,7 @@
     "grunt": "~0.4.1",
     "matchdep": "~0.1.2",
     "grunt-contrib-jshint": "~0.6.4",
-    "grunt-karma": "git@github.com:harrison/grunt-karma.git",
+    "grunt-karma": "git://github.com/harrison/grunt-karma.git",
     "karma": "~0.11.0",
     "karma-coverage": "~0.1.0",
     "karma-jasmine": "~0.1.3",
