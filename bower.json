@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
-    "momentjs": "~2.1.0",
+    "momentjs": "~2.2.1",
     "big.js": "~2.2.0"
   },
   "devDependencies": {
