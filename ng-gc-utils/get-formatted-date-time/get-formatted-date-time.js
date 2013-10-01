@@ -11,7 +11,7 @@ angular.module('gc.utils.getFormattedDateTime', [
       var date = validDateFormat.validDateFormat(dateStr);
       if (date) {
         if (endOfDay) { date.endOf('day'); }
-        return date.format('YYYY-MM-DDTHH:mm:ss');
+        return date.utc().format('YYYY-MM-DDTHH:mm:ssZ');
       } else {
         return '';
       }
