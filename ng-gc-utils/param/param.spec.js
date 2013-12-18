@@ -44,4 +44,16 @@ describe('param', function() {
     expect(param(input))
       .toEqual('a%5B0%5D%5Bnested%5D=object&a%5B1%5D%5Bnested%5D=object');
   });
+
+  it('given an object undefined and null values', function() {
+    var input = { a: undefined, b: null };
+    expect(param(input))
+      .toEqual('a=&b=');
+  });
+
+  it('throws for non objects', function() {
+    expect(function() {
+      param(null);
+    }).toThrow(new Error('\'source\' must be an object'));
+  });
 });
